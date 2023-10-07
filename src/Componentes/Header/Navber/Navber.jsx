@@ -1,10 +1,12 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
+
 
 
 const Navber = () => {
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -68,10 +70,13 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Login</a>
+                <Link to={`/login`}>
+                    <button className=" bg-red-600 text-white py-1 font-bold  px-4 rounded-xl hover:bg-green-600 hover:text-red-600 ">Login</button>
+                </Link>
             </div>
         </div>
     );
 };
+
 
 export default Navber;

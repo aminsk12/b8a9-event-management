@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/Jv4kt6R/weddings.jpg",
+        "title": "Your Perfect Day, Our Expert Touch: Wedding Event Services",
+        "description": "At Wedding Event Services, we understand that your wedding day is one of the most significant and cherished moments of your life. It's a day filled with love, joy, and the promise of a beautiful future together. We are here to ensure that your special day is nothing short of extraordinary, a day that reflects your unique love story and leaves lasting memories for you, your partner, and your guests.Our team of experienced professionals is dedicated to providing a comprehensive range of services to make your wedding dreams a reality. We take pride in our ability to create weddings that are as diverse and unique as the couples we work with. Whether you envision a romantic garden ceremony, an elegant ballroom reception, or a rustic outdoor celebration, we have the expertise and creativity to bring your vision to life.",
+        "price": "$1299.99"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/VvwvHDW/Birthday-Parties.jpg",
+        "title": "Celebrate Life's Moments: Your Special Birthday Bash!",
+        "description": "At Celebrate Life's Moments, we believe that every birthday is a unique opportunity to create cherished memories, connect with loved ones, and celebrate the wonderful journey of life. Whether you're turning a fabulous 40, a sassy 16, or any age in between, our dedicated team is here to help you craft a birthday celebration that is as special and extraordinary as you are.",
+        "price": "$2149.95"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/d7cnkMM/Anniversaries.webp",
+        "title": "Timeless Love, Endless Memories: Your Anniversary Celebration",
+        "description": "At 'Timeless Love, Endless Memories,' we believe that anniversaries are a beautiful reminder of the love and commitment that have grown stronger with each passing year. Whether you're celebrating one year or a golden milestone, our dedicated team is here to help you create a memorable anniversary celebration that honors your journey together.",
+        "price": "$3149.99"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/tLPhM7X/engagement-party.png",
+        "title": "Sparkling Beginnings: Your Engagement Party Extravaganza",
+        "description": "Sparkling Beginnings is your destination for celebrating the joyous occasion of your engagement. It's the time to commemorate your journey to forever, surrounded by family and friends. Our team is here to ensure that your engagement party is a memorable and heartfelt celebration that perfectly captures the excitement of this new chapter in your life.",
+        "price": "$3124.99 "
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/tqTybjk/retirement-party-decoration-service.jpg",
+        "title": "A Lifetime of Achievement: Your Retirement Celebration",
+        "description": "A Lifetime of Achievement is the perfect destination to celebrate the well-deserved retirement of a cherished colleague, friend, or family member. It's a time to reflect on a career filled with dedication, accomplishments, and the promise of new adventures ahead. Our team is here to ensure that your retirement party is a memorable and heartfelt celebration that honors the retiree's remarkable journey.",
+        "price": "$979.99"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/K0tS2mH/Baby-shower.webp",
+        "title": "Welcome to the World: A Baby Shower Celebration",
+        "description": "Welcome to the World is your invitation to join us in celebrating the joyous occasion of an upcoming addition to the family. It's a time to gather, share love and wisdom, and shower the parents-to-be with warm wishes and gifts for their precious new arrival. Our team is dedicated to ensuring that your baby shower is a heartwarming and memorable celebration of this beautiful journey into parenthood.",
+        "price": "$3319.95"
+    }
+    
+]

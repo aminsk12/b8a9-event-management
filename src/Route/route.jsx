@@ -3,18 +3,24 @@ import Root from "../Root/Root";
 import Home from "../Pages/Home/Home";
 import Service from "../Pages/service/Service";
 import About from "../Pages/About/About";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import Card from "../Componentes/Service/Card";
+import Login from "../Pages/LoginPage/Sinein/Login";
+import Register from "../Pages/Register/Register";
+
+
 
 
 const route = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement: <ErrorPage></ErrorPage>,
       children : [
         {
             path : '/',
             element : <Home></Home>,
-           
-            
+
         },
         {
             path : '/service',
@@ -23,6 +29,21 @@ const route = createBrowserRouter([
         {
             path : '/about',
             element : <About></About>
+        },
+        {
+            path : '/login',
+            element : <Login></Login>
+        },
+        {
+            path : '/register',
+            element : <Register></Register>
+        },
+        {
+            path : '/card/:id',
+            element : <Card></Card>,
+            loader : ()=> fetch('../../services.json')
+            
+            
         }
     ]
     },
