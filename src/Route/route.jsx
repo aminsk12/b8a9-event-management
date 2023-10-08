@@ -7,6 +7,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Card from "../Componentes/Service/Card";
 import Login from "../Pages/LoginPage/Sinein/Login";
 import Register from "../Pages/Register/Register";
+import PrivateRoute from "../Private/PrivateRoute";
 
 
 
@@ -40,7 +41,7 @@ const route = createBrowserRouter([
         },
         {
             path : '/card/:id',
-            element : <Card></Card>,
+            element : <PrivateRoute><Card></Card></PrivateRoute>,
             loader : ()=> fetch('../../services.json')
             
             
