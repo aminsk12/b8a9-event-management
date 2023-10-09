@@ -29,7 +29,7 @@ const route = createBrowserRouter([
         },
         {
             path : '/about',
-            element : <About></About>
+            element : <PrivateRoute><About></About></PrivateRoute>
         },
         {
             path : '/login',
@@ -42,9 +42,8 @@ const route = createBrowserRouter([
         {
             path : '/card/:id',
             element : <PrivateRoute><Card></Card></PrivateRoute>,
-            loader : ()=> fetch('../../services.json')
-            
-            
+            loader:()=>fetch('/services.json')
+        
         }
     ]
     },

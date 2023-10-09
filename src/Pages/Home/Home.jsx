@@ -6,6 +6,7 @@ import Services from "../../Componentes/Service/Services";
 const Home = () => {
     return (
         <div>
+            
             <Banner></Banner>
             <div className="flex justify-center items-center">
 

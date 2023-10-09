@@ -1,14 +1,17 @@
 import { Outlet } from "react-router-dom";
-import Navber from "../Componentes/Header/Navber/Navber";
 import Footer from "../Componentes/Footer/Footer";
 import { Toaster } from "react-hot-toast";
+import Navber from "../Componentes/Header/Navber/Navber";
 
 
 const Root = () => {
     return (
         <div>
+            
+            <div className=" ">
             <Navber></Navber>
-            <Outlet></Outlet>
+                <Outlet></Outlet>
+                </div>
             <Footer></Footer>
             <Toaster/>
         </div>
